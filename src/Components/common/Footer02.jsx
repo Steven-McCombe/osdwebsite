@@ -13,7 +13,7 @@ const Footer02 = () => {
                                 </div>
                                 <div className="contact_content">
                                     <h6>Our Address</h6>
-                                    <p>13 Madison Street NewYork, USA</p>
+                                    <p>24-12 35th St, Long Island City, NY 11103</p>
                                 </div>
                             </div>
                             <div className="footer_contact_inner">
@@ -22,8 +22,8 @@ const Footer02 = () => {
                                 </div>
                                 <div className="contact_content">
                                     <h6>Mail Address</h6>
-                                    <p>builderrine21@gmail.com</p>
-                                    <p>support.builderrine22@gmail.com</p>
+                                    <p>darragh@osdbuilders.com</p>
+                                    <p>office@osdbuilders.com</p>
                                 </div>
                             </div>
                             <div className="footer_contact_inner">
@@ -31,8 +31,8 @@ const Footer02 = () => {
                                     <i className="fa fa-map-marker"></i>
                                 </div>
                                 <div className="contact_content">
-                                    <h6>Opening Hour</h6>
-                                    <p>Mon - Fri (9.00am - 9.00pm)</p>
+                                    <h6>Office Hours</h6>
+                                    <p>Mon - Fri (9.00am - 5.00pm)</p>
                                     <p>Sat - Sun <span>Closed</span></p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const Footer02 = () => {
                                 <div className="logo">
                                     <a href="/"><img src="images/logo_foot.svg" alt="Logo" /></a>
                                 </div>
-                                <p>Who are looking for Extraordinary projects need vision & precision to be exceptional. They need Builderrine Construction Services.</p>
+                                <p>For those seeking extraordinary results in construction, OSD Builders is your partner in bringing vision and precision together. Experience exceptional craftsmanship and innovative solutions with OSD Builders.</p>
                                 <div className="side_footer_social">
                                     <ul className="bottom_social">
                                         <li className="facebook"><a href="#"><i className="ion-social-facebook"></i></a></li>
@@ -93,7 +93,7 @@ const Footer02 = () => {
                 <div className="container">
                     <div className="footer_bottom_inner">
                         <div className="copyright">
-                            <p>&copy;2023 <a href="https://themeforest.net/user/wpthemebooster">WPThemeBooster.</a> All rights reserved.</p>
+                            <p>&copy;2024 OSD Builders. All rights reserved.</p>
                         </div>
                         <div className="footer_nav_bottom">
                             <ul>

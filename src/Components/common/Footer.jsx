@@ -9,9 +9,9 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="footer_widget footer_widget_padding">
                                 <h4 className="widget_title">
-                                    About Builderrin
+                                    About OSD Builders
                                 </h4>
-                                <p>Who are looking for Extraordinary projects need vision & precision to be exceptional. They need Builderrine Construction Services.</p>
+                                <p>For those seeking extraordinary results in construction, OSD Builders is your partner in bringing vision and precision together. Experience exceptional craftsmanship and innovative solutions with OSD Builders.</p>
                                 <div className="subscribe">
                                     <form className="form-inline">
                                         <div className="input-group mb-2 mr-sm-2">
@@ -29,11 +29,11 @@ const Footer = () => {
                                 </h4>
                                 <div className="footer_nav">
                                     <ul className="footer_menu">
-                                        <li className="menu-item"><a href="/project">Web Design</a></li>
-                                        <li className="menu-item"><a href="/project-2">Construction</a></li>
-                                        <li className="menu-item"><a href="/project-details">Economics</a></li>
-                                        <li className="menu-item"><a href="/project-2">Photography</a></li>
-                                        <li className="menu-item"><a href="/project">Digital Marketing</a></li>
+                                    <li className="menu-item"><a href="/commercial-interiors">Commercial Interiors</a></li>
+                                    <li className="menu-item"><a href="/residential-remodeling">Residential Remodeling</a></li>
+                                    <li className="menu-item"><a href="/project-management">Project Management</a></li>
+                                    <li className="menu-item"><a href="/safety-management">Safety Management</a></li>
+                                    <li className="menu-item"><a href="/design-collaboration">Design Collaboration</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -45,10 +45,10 @@ const Footer = () => {
                                 </h4>
                                 <div className="footer_nav">
                                     <ul className="footer_menu">
+                                        <li className="menu-item"><a href="/">Home</a></li>
                                         <li className="menu-item"><a href="/about">About Us</a></li>
-                                        <li className="menu-item"><a href="/blog-details">Courses</a></li>
-                                        <li className="menu-item"><a href="/project-details">Enrollment</a></li>
-                                        <li className="menu-item"><a href="/service-details">Be an Instructor</a></li>
+                                        <li className="menu-item"><a href="/project">Projects</a></li>
+                                        <li className="menu-item"><a href="/Careers">Careers</a></li>
                                         <li className="menu-item"><a href="/contact">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -60,9 +60,9 @@ const Footer = () => {
                                     Address
                                 </h4>
                                 <ul>
-                                    <li><i className="fa fa-map-marker" aria-hidden="true"></i><span>13 Madison Street NewYork, USA</span></li>
-                                    <li><i className="fa fa-envelope" aria-hidden="true"></i><span>builderrine@gmail.com</span></li>
-                                    <li><i className="fa fa-clock-o" aria-hidden="true"></i><span>Monday - Friday (9.00am - 9.00pm)</span></li>
+                                    <li><i className="fa fa-map-marker" aria-hidden="true"></i><span>24-12 35th St, Long Island City, NY 11103</span></li>
+                                    <li><i className="fa fa-envelope" aria-hidden="true"></i><span>darragh@osdbuilders.com</span></li>
+                                    <li><i className="fa fa-clock-o" aria-hidden="true"></i><span>Monday - Friday (9.00am - 5.00pm)</span></li>
                                 </ul>
                                 <div className="side_footer_social">
                                     <ul className="bottom_social">
@@ -85,7 +85,7 @@ const Footer = () => {
                             <a href="index"><img src="images/logo_foot.svg" alt="Logo" /></a>
                         </div>
                         <div className="copyright">
-                            <p>&copy;2023 <a href="https://themeforest.net/user/wpthemebooster">WPThemeBooster.</a> All rights reserved.</p>
+                            <p>&copy;2024 OSD Builders. All rights reserved.</p>
                         </div>
                         <div className="footer_nav_bottom">
                             <ul>
