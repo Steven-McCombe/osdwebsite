@@ -3,23 +3,22 @@ import AboutBelowContent02 from '../../Components/ExperienceBlocks/AboutBelowCon
 
 const ExperienceAbout = () => {
     const headerData = {
-        heading: 'Building Dream into Reality',
-        subheading: 'ABOUT BUILDERRINE CONSTRUCTION',
+        heading: 'Crafting Exceptional Spaces in New York',
+        subheading: 'ABOUT OSD BUILDERS',
     };
 
-    const ExpericenData = [
+    const ExperienceData = [
         {
             id: '1',
             title: 'Our Mission',
-            description: 'Builderrine is the safe, reliable and cost effective builder company. We offer best construction Services.',
-            img: 'images/about/t1.png'
-
+            description: 'At OSD Builders, we prioritize creating exceptional interior and commercial spaces that reflect the dynamic spirit of New York. Our focus on quality, innovation, and customer satisfaction drives every project.',
+            img: 'images/about/t1.png' // Image remains unchanged
         },
         {
             id: '2',
             title: 'Our Vision',
-            description: 'Builderrine is the safe, reliable and cost effective builder company. We offer best construction Services.',
-            img: 'images/about/t2.png'
+            description: 'We envision a future where every space we transform contributes to the vibrant tapestry of New York City. Our vision is to be the go-to experts for interior and commercial construction, known for our attention to detail and exemplary craftsmanship.',
+            img: 'images/about/t2.png' // Image remains unchanged
         },
     ];
     return (
@@ -30,16 +29,16 @@ const ExperienceAbout = () => {
                         <div className="group_image_holder type_1">
                             <div className="expe_box">
                                 <div className="expe_box_inner">
-                                    <h1>35</h1>
-                                    Years of Experience
+                                    <h1>12</h1> {/* Updated to reflect OSD Builders' years of experience */}
+                                    Years of Craftsmanship
                                 </div>
                             </div>
-                            <img src="images/about/1.png" alt="" />
+                            <img src="images/about/1.png" alt="" /> {/* Image remains unchanged */}
                             <div className="object">
-                                <img src="images/about/3.png" alt="About" />
-                                <img src="images/about/3.png" alt="About" />
-                                <img src="images/about/3.png" alt="About" />
-                                <img src="images/about/s1.png" alt="About" />
+                                <img src="images/about/3.png" alt="About" /> {/* Image remains unchanged */}
+                                <img src="images/about/3.png" alt="About" /> {/* Image remains unchanged */}
+                                <img src="images/about/3.png" alt="About" /> {/* Image remains unchanged */}
+                                <img src="images/about/s1.png" alt="About" /> {/* Image remains unchanged */}
                             </div>
                         </div>
                     </div>
@@ -48,10 +47,12 @@ const ExperienceAbout = () => {
                             <div className="section_header">
                                 <h6 className="section_sub_title">{headerData.subheading}</h6>
                                 <h1 className="section_title">{headerData.heading}</h1>
-                                <p className="section_desc">Builderrine is the safe, reliable and cost effective construction company. We offer best construction Services. We have more than 35 years of experience in the field of building & construction. If yo</p>
+                                <p className="section_desc">
+                                    OSD Builders is synonymous with innovation and excellence in interior and commercial construction. With 12 years of dedicated service in New York, we bring unparalleled expertise to every project, ensuring each space we touch is not only functional but also a work of art.
+                                </p>
                                 <div className="about_below">
                                     {
-                                        ExpericenData.map(data =>
+                                        ExperienceData.map(data =>
                                             <AboutBelowContent02
                                                 key={data.id}
                                                 data={data}
@@ -60,7 +61,6 @@ const ExperienceAbout = () => {
                                     }
                                 </div>
                             </div>
-                            <a className="button" href="/about">Learn More</a>
                         </div>
                     </div>
                 </div>
