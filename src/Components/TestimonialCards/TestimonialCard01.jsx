@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TestimonialCard01 = ({ data }) => {
-    const { img, name, country } = data;
+    const { img, name, country, testimonial} = data;
     return (
         <div className="item">
             <div className="testibox1">
@@ -13,9 +13,9 @@ const TestimonialCard01 = ({ data }) => {
                             <li><i className="fa fa-star"></i></li>
                             <li><i className="fa fa-star"></i></li>
                             <li><i className="fa fa-star"></i></li>
-                            <li><i className="fa fa-star-o"></i></li>
+                            <li><i className="fa fa-star"></i></li>
                         </ul>
-                        <p>“Builderrine Construction provides us amazing serives. The have designed and build our Miami grand Hotel project. They have exceeded our expectation and did such an amazing job. We are very happy with their work”</p>
+                        <p>"{testimonial}"</p>
                     </div>
                     <div className="testi-top">
                         <div className="testi-img">

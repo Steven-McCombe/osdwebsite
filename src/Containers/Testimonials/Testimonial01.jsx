@@ -9,43 +9,49 @@ const Testimonial01 = (props) => {
         {
             id: '1',
             img: 'images/reviewer1.png',
-            country: 'MIAMI',
-            name: 'Johnathon Doe'
+            country: 'New York',
+            name: 'Michael Johnson',
+            testimonial: 'OSD Builders turned our vision into reality with impeccable attention to detail. Their professionalism and craftsmanship exceeded our expectations for our office renovation.'
         },
         {
             id: '2',
             img: 'images/reviewer4.png',
             country: 'New York',
-            name: 'Marina Samuel'
+            name: 'Sophia Williams',
+            testimonial: 'The team at OSD Builders was fantastic to work with. They delivered high-quality work on our new storefront and were incredibly responsive throughout the process.'
         },
         {
             id: '3',
             img: 'images/reviewer3.png',
-            country: 'UTAH',
-            name: 'Oakland Gardner'
+            country: 'New York',
+            name: 'Ethan Brown',
+            testimonial: 'I was thoroughly impressed by OSD’s commitment to bringing our residential project to life. Their work on custom interiors was both beautiful and functional.'
         },
         {
             id: '4',
             img: 'images/reviewer1.png',
             country: 'New York',
-            name: 'Johnathon Doe'
+            name: 'Olivia Smith',
+            testimonial: 'Working with OSD Builders was a pleasure from start to finish. Their expertise in commercial construction is evident in the superb quality of our new office space.'
         },
         {
             id: '5',
             img: 'images/reviewer1.png',
             country: 'New York',
-            name: 'Johnathon Doe'
+            name: 'Daniel Garcia',
+            testimonial: 'OSD Builders excels at interior craftsmanship. They transformed my space with innovative design and high-quality materials. Highly recommended for any renovation needs.'
         },
-
-    ]
+    ];
     return (
         <div className={`testimonial ${props.pb} `}>
             <div className="container">
                 <div className="section_header text-center">
                     <div className="shadow_icon"><img src="images/shadow_icon3.png" alt="" /></div>
-                    <h6 className="section_sub_title">Clients testimonial</h6>
-                    <h1 className="section_title">What our clients say about us</h1>
-                    <p className="section_desc">Builderrine is the best construction company. It has best team who are provideing best service possible.</p>
+                    <h6 className="section_sub_title">Our Clientele</h6>
+                    <h1 className="section_title">Client Experiences</h1>
+                    <p className="section_desc">
+                        Discover why OSD Builders is the preferred choice for New York's most prestigious interior and commercial construction projects. Our clients appreciate our dedication to delivering excellence and precision in every build.
+                    </p>
                 </div>
                 <div className="row">
                     <div className="col-12">
@@ -76,13 +82,13 @@ const Testimonial01 = (props) => {
 
                             {
                                 TestimonialData01.map(data =>
-                                    <SwiperSlide>
+                                    <SwiperSlide key={data.id}>
                                         <TestimonialCard01
-                                            key={data.id}
                                             data={data}
-                                        /></SwiperSlide>)
+                                        />
+                                    </SwiperSlide>
+                                )
                             }
-
 
                         </Swiper>
 
