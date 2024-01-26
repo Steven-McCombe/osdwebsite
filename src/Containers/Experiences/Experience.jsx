@@ -4,21 +4,20 @@ import AboutBelowContent from '../../Components/ExperienceBlocks/AboutBelowConte
 const Experience = () => {
     const headerData = {
         img: 'images/about/shadow_icon1.png',
-        heading: 'Building A New Era in world of Construction',
-        subheading: 'ABOUT BUILDERRINE CONSTRUCTION',
+        heading: 'Crafting New York’s Interiors, One Space at a Time',
+        subheading: 'ABOUT OSD BUILDERS',
     };
 
-    const ExpericenData = [
+    const ExperienceData = [
         {
             id: '1',
-            title: 'Most Reliable',
-            description: 'More than 200 Company trusted us'
-
+            title: 'Interior Excellence',
+            description: 'Transforming spaces with innovative and stylish interiors'
         },
         {
             id: '2',
-            title: 'Cost Effective',
-            description: 'Builderrine is famous for its cost effectiveness'
+            title: 'Urban Impact',
+            description: 'Creating dynamic commercial spaces and inviting storefronts'
         },
     ];
 
@@ -30,8 +29,8 @@ const Experience = () => {
                         <div className="group_image_holder type_1">
                             <div className="expe_box">
                                 <div className="expe_box_inner">
-                                    <h1>35</h1>
-                                    Years of Experience
+                                    <h1>12</h1>
+                                    Years of Craftsmanship
                                 </div>
                             </div>
                             <div className="image_object">
@@ -51,10 +50,10 @@ const Experience = () => {
                                 <div className="shadow_icon"><img src={headerData.img} alt="" /></div>
                                 <h6 className="section_sub_title">{headerData.subheading}</h6>
                                 <h1 className="section_title">{headerData.heading}</h1>
-                                <p className="section_desc">Builderrine is the safe, reliable and cost effective construction company. We offer best construction Services. We have more than 35 years of experience in the field of building & construction. If you want to build any highrise or housing projects, you are in the best palce right now</p>
+                                <p className="section_desc">At OSD Builders, we specialize in transforming New York’s spaces into extraordinary interiors. With 12 years of dedication, our portfolio spans elegant residential interiors, vibrant commercial spaces, and engaging storefronts. Each project is a testament to our commitment to quality, style, and the unique character of New York.</p>
                                 <div className="about_below">
                                     {
-                                        ExpericenData.map(data =>
+                                        ExperienceData.map(data =>
                                             <AboutBelowContent
                                                 key={data.id}
                                                 data={data}
@@ -64,7 +63,7 @@ const Experience = () => {
 
                                 </div>
                             </div>
-                            <a className="button" href="/about">Learn More</a>
+                            <a className="button" href="/about">Discover our Work</a>
                         </div>
                     </div>
                 </div>
