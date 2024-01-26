@@ -61,11 +61,11 @@ const Footer02 = () => {
                                 </h4>
                                 <div className="footer_nav">
                                     <ul className="footer_menu">
-                                        <li className="menu-item"><a href="/project">Web Design</a></li>
-                                        <li className="menu-item"><a href="/project-2">Construction</a></li>
-                                        <li className="menu-item"><a href="/project-details">Economics</a></li>
-                                        <li className="menu-item"><a href="/project-2">Photography</a></li>
-                                        <li className="menu-item"><a href="/project">Digital Marketing</a></li>
+                                    <li className="menu-item"><a href="/commercial-interiors">Commercial Interiors</a></li>
+                                    <li className="menu-item"><a href="/residential-remodeling">Residential Remodeling</a></li>
+                                    <li className="menu-item"><a href="/project-management">Project Management</a></li>
+                                    <li className="menu-item"><a href="/safety-management">Safety Management</a></li>
+                                    <li className="menu-item"><a href="/design-collaboration">Design Collaboration</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ const Footer02 = () => {
                                 <h4 className="widget_title">
                                     Newsletter
                                 </h4>
-                                <p>Please subscribe to our newsletter to get all the great Offers</p>
+                                <p>Please subscribe to our newsletter to get all latest information</p>
                                 <div className="subscribe">
                                     <form className="form-inline">
                                         <div className="input-group mb-2 mr-sm-2">
@@ -97,8 +97,8 @@ const Footer02 = () => {
                         </div>
                         <div className="footer_nav_bottom">
                             <ul>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="/terms">Terms & Conditions</a></li>
+                                <li><a href="/privacy">Privacy Policy</a></li>
                             </ul>
                         </div>
                         <div className="totop">
