@@ -39,17 +39,6 @@ const Header02 = () => {
                                                 <li className="menu-item"><a href="/about">About</a></li>
                                                 <li className="menu-item"><a href="/team">Team</a></li>
                                                 <li className="menu-item"><a href="/faq">FAQ</a></li>
-                                                <li className="menu-item menu-item-has-children"><a href="#">Shop</a>
-                                                    <ul className="sub-menu">
-                                                        <li className="menu-item"><a href="/shop-1">Shop One</a></li>
-                                                        <li className="menu-item"><a href="/shop-2">Shop Two</a></li>
-                                                        <li className="menu-item"><a href="/shop-3">Shop Three</a></li>
-                                                        {/* <li className="menu-item"><a href="/shop-4">Shop Four</a></li> */}
-                                                        <li className="menu-item"><a href="/product">Product Details</a></li>
-                                                        <li className="menu-item"><a href="/cart">Cart</a></li>
-                                                        <li className="menu-item"><a href="/checkout">Checkout</a></li>
-                                                    </ul>
-                                                </li>
                                             </ul>
                                         </li>
                                         <li className="menu-item menu-item-has-children"><a href="#">Blog</a>
