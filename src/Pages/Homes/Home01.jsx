@@ -20,9 +20,9 @@ const Home01 = () => {
             <ProjectHome01 />
 
             <Banner
-                title='Builderrine is proud to serve you 24/7. Just Call Us when you need'
+                title='OSD Builders is proud to serve you 24/7. Just Call Us when you need'
                 heading='Call Us Anytime'
-                phone='+99 (1234) 56 789'
+                phone='+1 (201) 844-5486'
                 bannerType='banner type_3'
             />
 
