@@ -11,36 +11,36 @@ const Service02 = () => {
             id: '1',
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/1.jpg',
-            tag: 'COMMERTIAL DESIGN',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Project Management',
+            title: 'Expert management for construction projects from concept to completion.'
         },
         {
             id: '2',
             img: 'images/services/s5.png',
             img02: 'images/services/Service_Hover_images/2.jpg',
-            tag: 'REAL ESTATE',
-            title: 'Builderrine Construction Company Receives Industry Recognition.'
+            tag: 'Commercial Interiors',
+            title: 'Specializing in high-quality commercial interior renovations and fit-outs.'
         },
         {
             id: '3',
             img: 'images/services/s7.png',
             img02: 'images/services/Service_Hover_images/3.jpg',
-            tag: 'DEMOLITION',
-            title: 'Extraordinary projects demand a strategic and intelligent approach, finely.'
+            tag: 'Site Preparation',
+            title: 'Comprehensive site preparation services ensuring safety and compliance.'
         },
         {
             id: '4',
             img: 'images/services/s6.png',
             img02: 'images/services/Service_Hover_images/4.jpg',
-            tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Residential Remodeling',
+            title: 'Transforming living spaces with innovative design and craftsmanship.'
         },
         {
             id: '5',
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/5.jpg',
-            tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Retail Construction',
+            title: 'Building captivating retail environments that attract and engage customers.'
         },
     ];
 

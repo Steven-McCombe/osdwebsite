@@ -8,66 +8,67 @@ const ServiceContainer01 = () => {
             id: '1',
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/1.jpg',
-            tag: 'COMMERTIAL DESIGN',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Project Management',
+            title: 'Expert management for construction projects from concept to completion.'
         },
         {
             id: '2',
             img: 'images/services/s5.png',
             img02: 'images/services/Service_Hover_images/2.jpg',
-            tag: 'REAL ESTATE',
-            title: 'Builderrine Construction Company Receives Industry Recognition.'
+            tag: 'Commercial Interiors',
+            title: 'Specializing in high-quality commercial interior renovations and fit-outs.'
         },
         {
             id: '3',
             img: 'images/services/s7.png',
             img02: 'images/services/Service_Hover_images/3.jpg',
-            tag: 'DEMOLITION',
-            title: 'Extraordinary projects demand a strategic and intelligent approach, finely.'
+            tag: 'Site Preparation',
+            title: 'Comprehensive site preparation services ensuring safety and compliance.'
         },
         {
             id: '4',
             img: 'images/services/s6.png',
             img02: 'images/services/Service_Hover_images/4.jpg',
-            tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Residential Remodeling',
+            title: 'Transforming living spaces with innovative design and craftsmanship.'
         },
         {
             id: '5',
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/5.jpg',
-            tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is proud to join other companies and organizations.'
+            tag: 'Retail Construction',
+            title: 'Building captivating retail environments that attract and engage customers.'
         },
         {
             id: '6',
             img: 'images/services/s9.png',
             img02: 'images/services/Service_Hover_images/6.jpg',
-            tag: 'INDUSTRIAL PLANT',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            tag: 'Safety Management',
+            title: 'Prioritizing workplace safety with rigorous protocols and training.'
         },
         {
             id: '7',
             img: 'images/services/s11.png',
             img02: 'images/services/Service_Hover_images/8.jpg',
-            tag: 'RENEWABLE ENERGY',
-            title: 'Builderrine Construction Company Receives Industry Recognition.'
+            tag: 'Permitting & Compliance',
+            title: 'Navigating NYC’s complex building codes and permit requirements.'
         },
         {
             id: '8',
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/5.jpg',
-            tag: 'CIVIL ENGINEERING',
-            title: 'Extraordinary projects demand a strategic and intelligent approach, finely.'
+            tag: 'Quality Control',
+            title: 'Ensuring the highest standards of quality in every construction phase.'
         },
         {
             id: '9',
             img: 'images/services/s12.png',
             img02: 'images/services/Service_Hover_images/9.jpg',
-            tag: 'BLUEPRINT DESIGN',
-            title: 'Builderrine is proud to join other companies and organizations.'
+            tag: 'Design Collaboration',
+            title: 'Collaborating with architects to bring creative visions to life.'
         },
     ];
+
 
     return (
         <div className="main_wrapper">

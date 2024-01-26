@@ -13,7 +13,7 @@ const ServiceCard02_01 = ({ data }) => {
                 <div className="service_content">
                     <h4>{tag}</h4>
                     <p>{title}</p>
-                    <a href="/service-details">READ MORE <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="/service-details">Learn More <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

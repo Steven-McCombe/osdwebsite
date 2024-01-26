@@ -11,9 +11,9 @@ const ServiceCard01 = ({ data }) => {
                         <img src={img} alt="" />
                     </div>
                     <div className="services_content_flex_cenrer">
-                        <h6>SERVICE {number}</h6>
+                        <h6>Experts in</h6>
                         <h4><a href="/services">{title}</a></h4>
-                        <a href="/service-details">Get Service <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a href="/service-details">Learn More<i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div className="main_img">

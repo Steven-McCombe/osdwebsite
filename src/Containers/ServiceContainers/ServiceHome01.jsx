@@ -7,25 +7,25 @@ const ServiceHome01 = () => {
             id: '1',
             img: 'images/services/s1.png',
             img02: 'images/services/ss1.png',
-            number: 'ONE',
+            number: '',
             bg: 'bg_1',
-            title: 'Industrial & Highrise Construction'
+            title: 'Commercial Interiors'
         },
         {
             id: '2',
             img: 'images/services/s2.png',
             img02: 'images/services/ss2.png',
-            number: 'TWO',
+            number: '',
             bg: 'bg_2',
-            title: 'Real Estate & Housing Construction'
+            title: 'Residential Remodeling'
         },
         {
             id: '3',
             img: 'images/services/s3.png',
             img02: 'images/services/sbg3.png',
-            number: 'THREE',
+            number: '',
             bg: 'bg_3',
-            title: 'Commertial Design & Building Construction'
+            title: 'Permitting & Compliance'
         }
     ];
 
