@@ -39,14 +39,14 @@ const Header = () => {
                             <div className="header_info">
                                 <div className="schedule">
                                     <div className="hide_icon d-md-none" data-text="Monday - Friday (9.00am - 9.00pm)"> <span><i className="fa fa-clock-o"></i></span></div>
-                                    <div className="d-none d-md-block"><span><i className="fa fa-clock-o"></i></span> Monday - Friday <strong>(9.00am - 9.00pm)</strong></div>
+                                    <div className="d-none d-md-block"><span><i className="fa fa-clock-o"></i></span> Monday - Friday <strong>(9.00am - 5:00pm)</strong></div>
                                 </div>
                                 <div className="schedule">
-                                    <div className="hide_icon d-md-none" data-text="builderrine@gmail.com"> <span><i className="fa fa-envelope"></i></span></div>
-                                    <div className="d-none d-md-block"><span><i className="fa fa-envelope"></i></span> builderrine@gmail.com</div>
+                                    <div className="hide_icon d-md-none" data-text="darragh@osdbuilders.com"> <span><i className="fa fa-envelope"></i></span></div>
+                                    <div className="d-none d-md-block"><span><i className="fa fa-envelope"></i></span> darragh@osdbuilders.com</div>
                                 </div>
                                 <div className="free_contact">
-                                    <a href="/contact" className="btn">Request Free Quote</a>
+                                    <a href="/contact" className="btn">Free Estimate</a>
                                 </div>
                             </div>
                         </div>
@@ -64,23 +64,14 @@ const Header = () => {
                             <div className="header_right_part">
                                 <div className="mainnav">
                                     <ul className="main_menu">
-                                        <li className="menu-item menu-item-has-children active"><a href="/">Home</a>
-                                            <ul className="sub-menu">
-                                                <li className="menu-item active"><a href="/">Home One</a></li>
-                                                <li className="menu-item"><a href="/home-2">Home Two</a></li>
-                                            </ul>
+                                        <li className="menu-item "><a href="/">Home</a>
                                         </li>
-                                        <li className="menu-item menu-item-has-children"><a href="#">Services</a>
-                                            <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/services">Service One</a></li>
-                                                <li className="menu-item"><a href="/services-2">Service Two</a></li>
-                                                <li className="menu-item"><a href="/service-details">Service Details</a></li>
-                                            </ul>
+                                        <li className="menu-item"><a href="/services">Services</a>
                                         </li>
                                         <li className="menu-item menu-item-has-children"><a href="#">Projects</a>
                                             <ul className="sub-menu">
                                                 <li className="menu-item"><a href="/project">Projects One</a></li>
-                                                <li className="menu-item"><a href="/project-2">Peojects Two</a></li>
+                                                <li className="menu-item"><a href="/project-2">Projects Two</a></li>
                                                 <li className="menu-item"><a href="/project-details">Peojects Details</a></li>
                                             </ul>
                                         </li>

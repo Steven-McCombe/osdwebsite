@@ -22,18 +22,10 @@ const Header02 = () => {
                             <div className="header_right_part">
                                 <div className="mainnav">
                                     <ul className="main_menu">
-                                        <li className="menu-item menu-item-has-children active"><a href="/">Home</a>
-                                            <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/">Home One</a></li>
-                                                <li className="menu-item active"><a href="/home-2">Home Two</a></li>
-                                            </ul>
+                                        <li className="menu-item  active"><a href="/">Home</a>
                                         </li>
-                                        <li className="menu-item menu-item-has-children"><a href="#">Services</a>
-                                            <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/services">Service One</a></li>
-                                                <li className="menu-item"><a href="/services-2">Service Two</a></li>
-                                                <li className="menu-item"><a href="/service-details">Service Details</a></li>
-                                            </ul>
+                                        <li className="menu-item "><a href="/services">Services</a>
+
                                         </li>
                                         <li className="menu-item menu-item-has-children"><a href="#">Projects</a>
                                             <ul className="sub-menu">
@@ -72,7 +64,7 @@ const Header02 = () => {
                                 </div>
                                 <div className="phone phn_color">
                                     <i className="fa fa-phone" aria-hidden="true"></i>
-                                    <div><span>Call Us Anytime</span><br /><span className="phn_number">(+123)987.654.32</span></div>
+                                    <div><span>Call Us Anytime</span><br /><span className="phn_number">+1 (201) 844-5486</span></div>
                                 </div>
                                 <div className="header_search" onClick={handleToggle}>
                                     <button type="submit" className="form-control-submit"><i className="ion-ios-search"></i></button>
