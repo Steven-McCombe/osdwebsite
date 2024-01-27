@@ -6,20 +6,20 @@ const FunFactAbout = () => {
         {
             id: '1',
             img: 'images/funfact/p5.png',
-            number: '33',
-            name: 'Under Construction'
+            number: '12',
+            name: 'Years of Craftsmanship'
         },
         {
             id: '2',
             img: 'images/funfact/p6.png',
-            number: '100',
-            name: 'Expert Builders'
+            number: '50',
+            name: 'Projects Complete'
         },
         {
             id: '3',
             img: 'images/funfact/p7.png',
-            number: '300',
-            name: 'Projects Handover'
+            number: '50',
+            name: 'Happy Clients'
         },
     ];
 

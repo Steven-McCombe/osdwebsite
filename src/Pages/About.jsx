@@ -10,9 +10,9 @@ import Testimonial01 from '../Containers/Testimonials/Testimonial01';
 
 const About = () => {
     const AboutBannerData = {
-        title: 'Builderrine is proud to serve you 24/7. Just Call Us when you need',
+        title: 'OSD Builders is proud to serve you 24/7. Just call us when you need',
         heading: 'Call Us Anytime',
-        phone: '+99 (1234) 56 789'
+        phone: '(201) 844-5486'
     }
     return (
         <>
@@ -28,9 +28,9 @@ const About = () => {
                 <Team pb='pd_btom_110' />
 
                 <Banner
-                    title='Is Your House Secured Enough? Call Us to install Security Devices'
+                    title=''
                     heading='Call Us Anytime'
-                    phone='(+123)987.654.32'
+                    phone='(201) 844-5486'
                     bannerType='banner type_3'
                 />
 
